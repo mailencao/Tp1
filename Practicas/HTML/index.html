@@ -8,9 +8,11 @@
 </head>
 
 <body>
-  <div>elemento en bloque</div>
-  <span>elemento en liena</span>
+  <!-- <div>elemento en bloque</div> -->
+  <!-- contro + K, control + C = anotaciones -->
+  <!-- <span>elemento en liena</span> -->
   <h1>Soy un titulo grande</h1>
+  <a href="#abajo">Abajo</a>
   <h6 id="arriba">Soy el titulo mas pequeño</h6>
   <p>parrafo</p>
   <b>salto de linea</b>
@@ -21,7 +23,7 @@
       <li>cho</li>
     </ul>
   </div>
-  <b>salto de linea</b>
+  <br>salto de linea</br>
   <span>
     <ol>
       <li>fry</li>
@@ -44,11 +46,21 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
       <hr />
-      <audio src="../assets/audio/y2mate.com - Sugey Torres  En lo profundoPeso De EncantoAudio Only_96kbps.mp3"
+      <audio id="abajo" src="../assets/audio/y2mate.com - Sugey Torres  En lo profundoPeso De EncantoAudio Only_96kbps.mp3"
         controls>Encanto</audio>
         <hr/>
-        
     </main>
+    <a href="#arriba">Subir</a>
+    <form action="#" method="get" enctype="application/x-www-form-urlencoded">
+      <input type="checkbox" name="check" value="hombre"></imput>
+      <label for="check">hombre</label>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="mujer">
+      <label for="vehicle1">mujer</label><br> 
+      <input Type="datetime-local" name="fecha" value="2023-10-19T04:20">
+      <label for="fecha">fecha de nacimiento</label>
+      <button type="submit">Enviar</button>
+    </form>
+    
 </body>
 
 </html>
